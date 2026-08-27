@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Test coverage
+coverage/
+
+# Environment files (never commit secrets)
+.env
+.env.*.local
+*.local
+
+# Logs
+*.log
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# TypeScript incremental build info
+*.tsbuildinfo
